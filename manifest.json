@@ -1,7 +1,474 @@
 {
-  "tarball_url": "https://codeload.github.com/zocomputer/skills/tar.gz/refs/heads/main",
+  "tarball_url": "https://codeload.github.com/JordanOram/skills/tar.gz/refs/heads/main",
   "archive_root": "skills-main",
   "skills": [
+    {
+      "name": "solomon-agent-rules",
+      "description": "Create and maintain agent guidance files so AI collaborators build with the right canon, conventions, and taste.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-agent-rules",
+      "path": "Community/solomon-agent-rules",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-analytics-improvement",
+      "description": "Read product analytics and turn drop-offs, replay evidence, and user behaviour into one useful product improvement.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-analytics-improvement",
+      "path": "Community/solomon-analytics-improvement",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-app-testing",
+      "description": "Test an app like a real client would: core flows, edge cases, mobile, copy clarity, and whether the promised value actually lands.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-app-testing",
+      "path": "Community/solomon-app-testing",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-backend-scaffold",
+      "description": "Design and scaffold secure backend foundations for Solomon-style products: auth, schema, permissions, API routes, and data ownership.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-backend-scaffold",
+      "path": "Community/solomon-backend-scaffold",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-brand-system",
+      "description": "Create a clear brand system for Solomon, O&FA, or a freelancer client: story, positioning, values, visual direction, and usage rules.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-brand-system",
+      "path": "Community/solomon-brand-system",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-browser-debugging",
+      "description": "Debug product issues from the user interface back to code, logs, data, and deployment state.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-browser-debugging",
+      "path": "Community/solomon-browser-debugging",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-canon-sync",
+      "description": "Propagate Solomon (the product) identity from CANON.md out to every downstream record so they never drift. Use when Jordan updates what Solomon IS (category, wedge, the wheel, phase line, north star, hosting model, positioning), when he says \"sync the canon\" / \"update all records\" / \"propagate this\", or on the nightly Solomon Records Sync automation. Solomon = the product. (Zolomon = the persona; that is a different skill: zolomon-persona-sync.)",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer"
+      },
+      "slug": "solomon-canon-sync",
+      "path": "Community/solomon-canon-sync",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-career-stage-read",
+      "description": "Classify a Solomon client's role, career stage, bottleneck, strongest proof, missing proof, and recommended support function. Use for first-cohort DP/cinematographer reads and support-map prep.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "category": "Solomon"
+      },
+      "slug": "solomon-career-stage-read",
+      "path": "Community/solomon-career-stage-read",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-cicd-pipeline",
+      "description": "Create or audit the path from change request to tested preview to production release with human approval gates.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-cicd-pipeline",
+      "path": "Community/solomon-cicd-pipeline",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-client-segment",
+      "description": "Define the first reachable client segment for Solomon, Once & For All, or a freelancer client. Translates generic ICP work into who hires, why now, and what proof they need.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-client-segment",
+      "path": "Community/solomon-client-segment",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-company-roadmap",
+      "description": "Turn a vague company or product idea into a practical zero-to-working-product roadmap, adapted to Solomon's discipline: one product, one wedge, one number.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-company-roadmap",
+      "path": "Community/solomon-company-roadmap",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-component-generator",
+      "description": "Turn a clear product or client need into a finished frontend component or page that follows Solomon design and copy discipline.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-component-generator",
+      "path": "Community/solomon-component-generator",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-content-distribution",
+      "description": "Adapt, schedule, and organize content distribution across channels without turning visibility into noise.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-content-distribution",
+      "path": "Community/solomon-content-distribution",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-content-strategy",
+      "description": "Turn positioning, client signal, and lived experience into a practical content system for staying visible.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-content-strategy",
+      "path": "Community/solomon-content-strategy",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-crm-setup",
+      "description": "Set up a lightweight CRM or opportunity pipeline that tracks real progress, not busywork.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-crm-setup",
+      "path": "Community/solomon-crm-setup",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-deployment-setup",
+      "description": "Plan and set up deployment paths for Solomon projects with clear staging, production, preview, and rollback discipline.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-deployment-setup",
+      "path": "Community/solomon-deployment-setup",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-domain-setup",
+      "description": "Plan and execute domain, subdomain, DNS, SSL, and routing setup for Solomon surfaces or client career infrastructure without turning naming into a rabbit hole.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-domain-setup",
+      "path": "Community/solomon-domain-setup",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-expansion-analysis",
+      "description": "Analyze expansion opportunities without drifting from the wedge: vertical depth, horizontal reach, TAM, retention, ARPU, and product focus.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-expansion-analysis",
+      "path": "Community/solomon-expansion-analysis",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-infra-monitoring",
+      "description": "Monitor services, logs, performance, costs, and reliability for Solomon projects, then propose focused fixes instead of vague alerts.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-infra-monitoring",
+      "path": "Community/solomon-infra-monitoring",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-intro-rationale-builder",
+      "description": "Build one provenance-backed Solomon intro or action rationale with consent requirements, confidence, risk, and client/operator approval copy.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "category": "Solomon"
+      },
+      "slug": "solomon-intro-rationale-builder",
+      "path": "Community/solomon-intro-rationale-builder",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-knowledge-base",
+      "description": "Create and maintain help docs, onboarding instructions, troubleshooting articles, and internal procedures from the current product.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-knowledge-base",
+      "path": "Community/solomon-knowledge-base",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-lead-list-builder",
+      "description": "Build and score lead lists from a clear segment, buying triggers, relationship context, and public signals.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-lead-list-builder",
+      "path": "Community/solomon-lead-list-builder",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-marketing-assets",
+      "description": "Generate useful marketing artifacts: briefs, visuals, decks, one-pagers, social assets, and launch materials that match the brand and offer.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-marketing-assets",
+      "path": "Community/solomon-marketing-assets",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-marketing-ops",
+      "description": "Run and improve marketing channels by choosing focused tests, producing assets, and tracking what actually works.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-marketing-ops",
+      "path": "Community/solomon-marketing-ops",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-mvp-spec",
+      "description": "Convert a product idea into a tight MVP spec that serves the Solomon wheel and avoids scope inflation.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-mvp-spec",
+      "path": "Community/solomon-mvp-spec",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-outcome-tracker",
+      "description": "Track Solomon state movement after a proposed move, writing outcomes back to the client profile, relationship edge, support map, and future recommendation memory.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "category": "Solomon"
+      },
+      "slug": "solomon-outcome-tracker",
+      "path": "Community/solomon-outcome-tracker",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-outreach-sequences",
+      "description": "Turn a clear segment and offer into concise outreach angles, first messages, and follow-ups in Jordan or Solomon's voice.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-outreach-sequences",
+      "path": "Community/solomon-outreach-sequences",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-posthog-setup",
+      "description": "Set up PostHog or product analytics around meaningful Solomon flows: activation, value moments, retention, and drop-off.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-posthog-setup",
+      "path": "Community/solomon-posthog-setup",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-relationship-graph-seed",
+      "description": "Turn credits, collaborators, trusted people, target rooms, and sensitive exclusions into a simple Solomon relationship-edge list that can honestly return no known path.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "category": "Solomon"
+      },
+      "slug": "solomon-relationship-graph-seed",
+      "path": "Community/solomon-relationship-graph-seed",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-repository-setup",
+      "description": "Set up or audit a repo so it can support agent-assisted building without losing discipline.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-repository-setup",
+      "path": "Community/solomon-repository-setup",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-sales-feedback-loop",
+      "description": "Turn sales notes, CRM activity, objections, lost deals, and consult calls into product, positioning, and roadmap signal.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-sales-feedback-loop",
+      "path": "Community/solomon-sales-feedback-loop",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-sales-marketing-setup",
+      "description": "Set up the first practical sales and marketing system for Solomon, O&FA, or a freelancer client without turning it into theatre.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-sales-marketing-setup",
+      "path": "Community/solomon-sales-marketing-setup",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-sales-motion",
+      "description": "Choose and design the first sales motion: relationship-led, product-led, consultative, outbound, inbound, or referral-based.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-sales-motion",
+      "path": "Community/solomon-sales-motion",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-secrets-management",
+      "description": "Handle API keys, tokens, environment variables, and private credentials safely across Solomon projects and client workflows.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-secrets-management",
+      "path": "Community/solomon-secrets-management",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-support-agent",
+      "description": "Plan and configure a customer-facing support agent or support flow that answers common questions and escalates the sensitive ones.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-support-agent",
+      "path": "Community/solomon-support-agent",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-support-feedback-loop",
+      "description": "Turn support conversations into bug reports, docs updates, product improvements, and roadmap signal.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-support-feedback-loop",
+      "path": "Community/solomon-support-feedback-loop",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-support-map-builder",
+      "description": "Build the Jordan/operator-authored Solomon support map template for a client. Use after a career-stage read and relationship graph seed exist.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "category": "Solomon"
+      },
+      "slug": "solomon-support-map-builder",
+      "path": "Community/solomon-support-map-builder",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-unit-economics",
+      "description": "Build or interpret a simple unit economics dashboard: revenue, churn, ARPU, LTV, CAC, payback, and segment quality.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-unit-economics",
+      "path": "Community/solomon-unit-economics",
+      "date_added": "2026-06-21"
+    },
+    {
+      "name": "solomon-website-builder",
+      "description": "Build or plan a clear website for Solomon, O&FA, or a freelancer client that turns positioning into a working public surface.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "solomonos1.zo.computer",
+        "source": "Cofounder how-to adapted into Solomon freelance-OS skills"
+      },
+      "slug": "solomon-website-builder",
+      "path": "Community/solomon-website-builder",
+      "date_added": "2026-06-21"
+    },
     {
       "name": "moonpay-auth",
       "description": "Set up the MoonPay CLI on Zo, authenticate the current user, and create or inspect local wallets. Use when MoonPay commands fail because the user is not logged in, when a wallet is missing, or when a MoonPay flow needs login completed before continuing.",
